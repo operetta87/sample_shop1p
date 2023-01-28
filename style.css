@@ -1,0 +1,216 @@
+@charset "utf-8"
+*{
+    box-sizing: border-box;
+}
+    body{
+    font-size:14px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 62px;
+    text-align: center;
+    padding:10px;
+    text-shadow: 4px 4px 4px gray;
+}
+
+h2{
+    font-size: 42px;
+    text-align: center;
+    text-shadow: 4px 4px 4px gray;
+}
+
+h3{
+    font-size: 30px;
+    text-align: left;
+    text-shadow: 4px 4px 4px gray;
+}
+
+
+li{
+    list-style: none;
+}
+
+header{
+    width:100%;
+    background-color: black;
+    position: fixed;
+    border-bottom:solid 2px #777;
+}
+
+.btn{
+    display: inline-block;
+    width: 200px;
+    max-width: 100%;
+    padding: 20px 10px;
+    background-color: #e25c00;
+    border: 2px solid transparent;
+    box-shadow: 0 3px 6px rbga(0 0 0 .16);
+    color: #fff;
+    font-size: 1.125rem;
+    text-align: center;
+    text-decoration: none;
+    transition: .25s;
+    border-radius: 10px;
+}
+
+.btn:focus,
+.btn:hover{
+    background-color: #fff;
+    border-color: currentColor;
+    color: #e25c00;
+}
+
+.hd_wrap{
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hd_logo{
+    font-size: 42px;
+    padding:5px 10px;
+}
+.hd_logo a{
+    color: white;
+}
+
+.hd_list li{
+    display: inline-block;
+    padding:15px 0px;
+    margin-left:10px;
+    border-left:3px solid white;
+    border-bottom:1px solid white;
+}
+
+.hd_list a{
+    color:white;
+    padding:15px 30px;
+}
+.hd_list a:hover{
+background-color: gray;}
+
+.main{
+    background-color: black;
+    color:white;
+}
+
+.topimage img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.tp_wrap{
+    padding-bottom:50px;
+    margin-top: -50px;
+}
+.main_wrap{
+    padding:30px 0;;
+}
+
+.staff_info{
+    padding:20px 0;
+}
+.si_contents{
+    width:1200px;
+    margin:40px auto 0;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:40px;
+}
+
+.sico_left{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sico_left img{
+    width: 80%;
+    border-radius:20px;
+    margin:0 auto;
+}
+
+.sico_left a{
+    margin:10px auto;
+}
+
+.mc_text{
+    width:60%;
+    padding:0px 30px;
+    border-bottom:solid 2px gray; 
+    border-left:solid 2px gray; 
+    display: flex;
+    flex-direction: column;
+}
+
+.mc_works{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   padding-top:20px;
+}
+.mc_works img{
+    border-radius: 0 20px 0 20px;
+    width: 32%;
+}
+
+.shop_info{
+    width:1200px;
+    margin: 30px auto;
+}
+
+.sh_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sh_half{
+    width:48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sh_left{
+    padding:100px 0 0 ;
+}
+
+.sh_item{
+    width:100%;
+    padding-bottom:20px;
+}
+
+.sh_item img{
+    width:100%;
+    margin: 0 auto;
+}
+.sp_address{
+    margin-top: 40px;
+}
+.p_s{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    border-top:solid 2px #777;
+}
+.ft_wrap{
+    margin:0 auto;
+    width:1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px 0;
+    
+}
